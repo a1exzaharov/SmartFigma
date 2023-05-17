@@ -98,14 +98,14 @@
         android:layout_width="183dp"
         android:layout_height="46dp"
         android:layout_marginStart="65dp"
-        android:layout_marginTop="332dp"
+        android:layout_marginTop="328dp"
         android:layout_marginEnd="68dp"
         android:background="@drawable/button_fone"
         android:onClick="OnClick"
         android:text="Запросить новый код"
-        android:visibility="invisible"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintHorizontal_bias="0.536"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

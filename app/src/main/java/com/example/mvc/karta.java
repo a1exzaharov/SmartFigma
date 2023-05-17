@@ -14,7 +14,7 @@ import android.widget.Spinner;
 
 public class karta extends AppCompatActivity {
     private AppCompatButton butona;
-    String[] pol = {"Мужской", "Женский", "Нелюди"};
+    String[] pol = {"Мужской", "Женский"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
