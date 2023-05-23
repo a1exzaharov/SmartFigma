@@ -15,6 +15,9 @@
             android:name=".Paswr"
             android:exported="false" />
         <activity
+            android:name=".Service"
+            android:exported="false" />
+        <activity
             android:name=".main_menu"
             android:exported="false" />
         <activity

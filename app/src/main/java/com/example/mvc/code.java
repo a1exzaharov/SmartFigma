@@ -104,7 +104,7 @@ public class code extends AppCompatActivity {
                         startActivity(intent);
                     } else if (!s_all.equals(test)) {
                         Toast toast = Toast.makeText(getApplicationContext(),
-                                "Камень я дам, Код я не дам",
+                                "try again",
                                         Toast.LENGTH_SHORT);
                         toast.show();
                     }
@@ -116,6 +116,8 @@ public class code extends AppCompatActivity {
 
             }
         });
+
+
     }
 
 
