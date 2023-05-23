@@ -242,17 +242,20 @@
                 android:id="@+id/button1"
                 android:layout_width="141dp"
                 android:layout_height="48dp"
-                android:text="Все категории"
-                android:background="@drawable/button_fone"
-                android:textColor="@color/white"
-                android:textSize="15dp"
-                android:fontFamily="sans-serif"
-                android:textStyle="normal"
-                android:textFontWeight="500"
-                android:textAllCaps="false"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:onClick="OnClick"/>
+                android:background="@drawable/button_fone"
+                android:fontFamily="sans-serif"
+                android:onClick="OnClick"
+                android:rotationX="1"
+                android:rotationY="1"
+                android:text="Все категории"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textFontWeight="500"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button2"
                 android:layout_width="141dp"
@@ -433,6 +436,7 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:onClick="OnClick"/>
+
         </LinearLayout>
     </HorizontalScrollView>
 
