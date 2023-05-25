@@ -183,6 +183,7 @@
     </HorizontalScrollView>
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="68dp"
         android:layout_marginBottom="4dp"
@@ -196,8 +197,8 @@
             android:id="@+id/imageView10"
             android:layout_width="wrap_content"
             android:layout_height="55dp"
-            app:srcCompat="@drawable/analiz"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            app:srcCompat="@drawable/analiz" />
 
         <ImageView
             android:id="@+id/imageView11"
@@ -440,21 +441,6 @@
         </LinearLayout>
     </HorizontalScrollView>
 
-    <ScrollView
-        android:layout_width="410dp"
-        android:layout_height="319dp"
-        android:layout_marginTop="500dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
-    </ScrollView>
-
     <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
@@ -472,5 +458,37 @@
         app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="335dp"
+                android:layout_height="136dp"
+                android:layout_marginEnd="36dp"
+                app:srcCompat="@drawable/primary1" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="335dp"
+                android:layout_height="136dp"
+                android:layout_marginVertical="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/primary" />
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
